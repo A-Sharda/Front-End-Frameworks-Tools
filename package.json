@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "scss": "node-sass -o css/ css/"
+  },
   "dependencies": {
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
@@ -8,6 +11,7 @@
     "popper.js": "^1.12.9"
   },
   "devDependencies": {
-    "less": "^4.1.1"
+    "less": "^4.1.1",
+    "node-sass": "^5.0.0"
   }
 }
