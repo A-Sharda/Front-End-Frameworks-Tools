@@ -56,18 +56,21 @@ body{
     left: 0;
     min-height: 300px;
 }
-.modal-header {
-    background-color: white;
-    color: black;
-  }
-  .modal-body{
-      
-    background-color: white;
-    color: black;
-  }
-  #carouselButton {
+#carouselButton {
     right:0px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+.modal-header {
+    background-color: #512DA8;
+    color: floralwhite;
+  }
+  .modal-body{      
+    background-color: #ccbfe2;
+    color: rgb(7, 7, 6);
+  }
+
+ .close{
+ color: floralwhite;
 }
